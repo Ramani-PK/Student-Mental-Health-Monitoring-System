@@ -1,0 +1,12 @@
+{
+    "telemetry.editStats.details.enabled": true,
+    "python.analysis.enablePerfTelemetry": true,
+    "editor.experimental.treeSitterTelemetry": true,
+    "telemetry.editStats.showDecorations": true,
+    "editor.experimental.preferTreeSitter.typescript": true,
+    "editor.experimental.preferTreeSitter.regex": true,
+    "editor.experimental.preferTreeSitter.ini": true,
+    "editor.experimental.preferTreeSitter.css": true,
+    "python.analysis.reportExtraTelemetry": true,
+    "python.analysis.enableSnippetExtraTelemetry": true
+}
