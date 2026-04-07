@@ -1,0 +1,14 @@
+services:
+  - type: web
+    name: mental-health-server
+    env: node
+    rootDir: server
+    buildCommand: npm install
+    startCommand: npm start
+    envVars:
+      - key: MONGODB_URI
+        value: mongodb+srv://RAMANI:pkr@cluster0.wiwbiyr.mongodb.net/mental_health?retryWrites=true&w=majority
+      - key: JWT_SECRET
+        generateValue: true
+      - key: PORT
+        value: 10000
